@@ -1,5 +1,6 @@
 import CheckIcon from "./check.svg?react";
 import SearchIcon from "./search.svg?react";
 import UploadFileIcon from "./upload-file.svg?react";
+import FileImageIcon from "./image.svg?react";
 
-export { CheckIcon, SearchIcon, UploadFileIcon };
+export { CheckIcon, SearchIcon, UploadFileIcon, FileImageIcon };
