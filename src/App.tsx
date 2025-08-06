@@ -8,6 +8,7 @@ import Divider from "./components/divider";
 import InputText from "./components/input-text";
 import { InputCheckbox } from "./components/input-checkbox";
 import { CheckIcon } from "./assets/icons";
+import { InputSingleFile } from "./components/input-single-file";
 
 export default function App() {
   return (
@@ -59,6 +60,12 @@ export default function App() {
       </div>
       <div>
         <InputCheckbox />
+      </div>
+      <div>
+        <Divider />
+      </div>
+      <div>
+        <InputSingleFile />
       </div>
     </div>
   );
