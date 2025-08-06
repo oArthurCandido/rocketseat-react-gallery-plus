@@ -6,7 +6,8 @@ import Badge from "./components/badge";
 import Alert from "./components/alert";
 import Divider from "./components/divider";
 import InputText from "./components/input-text";
-import SearchIcon from "./assets/icons/search.svg?react";
+import { InputCheckbox } from "./components/input-checkbox";
+import { CheckIcon } from "./assets/icons";
 
 export default function App() {
   return (
@@ -51,7 +52,13 @@ export default function App() {
         <Divider />
       </div>
       <div>
-        <InputText icon={SearchIcon} placeholder="Buscar imagem" />
+        <InputText icon={CheckIcon} placeholder="Buscar imagem" />
+      </div>
+      <div>
+        <Divider />
+      </div>
+      <div>
+        <InputCheckbox />
       </div>
     </div>
   );
